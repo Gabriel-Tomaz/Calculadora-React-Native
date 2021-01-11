@@ -114,7 +114,7 @@ const Calculator = () => {
                             <Label> C </Label>
                         </Button>
                         <ButtonClear onPress={runDelete}>
-                            <Icon name="backspace" size={21} color="#b71c1c" />
+                            <Icon name="backspace" size={21} color="#91280D" />
                         </ButtonClear>
                         <ButtonLarge onPress={runCalc}>
                             <Label> = </Label>

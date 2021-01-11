@@ -8,7 +8,7 @@ export const MainCalculator = styled.View`
 
 export const CalculatorBody = styled.View`
     flex: 1;
-    background-color: #C5CAE9;
+    background-color: #293241;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -16,10 +16,10 @@ export const CalculatorBody = styled.View`
 `;
 
 export const DisplayBody = styled.View`
-    width: 95%;
+    width: 90%;
     height: 300px;
-    background-color: #A5D6A7;
-    border: solid 8px rgba(159, 168, 218,0.8);
+    background-color: #98C1D9;
+    border:solid 5px #3D5A80;
     justify-content: space-around;
     align-items: center;
     border-radius: 4px;
@@ -31,7 +31,8 @@ export const InputValues = styled.TextInput`
     border-radius: 4px;
     text-align: right;
     font-size: 45px;
-`
+    color: #3D5A80;
+`;
 
 export const Results = styled.TextInput`
     width: 95%;
@@ -39,8 +40,8 @@ export const Results = styled.TextInput`
     border-radius: 4px;
     text-align: right;
     font-size: 45px;
-    color: rgba(0,0,0,0.25);
-`
+    color: #3D5A80;
+`;
 export const NumericKeyboard = styled.View`
     width: 200px;
     height: 42%;
@@ -62,11 +63,9 @@ export const OperatorsKeyboard = styled.View`
 export const Button = styled.TouchableOpacity`
     width: 60px;
     height: 60px;
-    background-color: rgba(159, 168, 218,1);
-    border: solid 2px rgba(121, 134, 203,1);
+    background-color: #3D5A80;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 4px #000;
     border-radius: 4px;
 `;
 
@@ -75,15 +74,14 @@ export const ButtonLarge = styled(Button)`
 `;
 
 export const ButtonClear = styled(Button)`
-    background-color: #EF5350;
-    border: solid 2px #D32F2F;
+    background-color: #EE6C4D;
 
 `
 
 export const Label = styled.Text`
     font-size: 21px;
     font-weight: bold;
-    color: rgba(0,0,0,0.6)
+    color: #FFF;
 `;
 
   
