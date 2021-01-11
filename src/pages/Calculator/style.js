@@ -17,7 +17,7 @@ export const CalculatorBody = styled.View`
 
 export const DisplayBody = styled.View`
     width: 95%;
-    height: 280px;
+    height: 300px;
     background-color: #A5D6A7;
     border: solid 8px rgba(159, 168, 218,0.8);
     justify-content: space-around;
